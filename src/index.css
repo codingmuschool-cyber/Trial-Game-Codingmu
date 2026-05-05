@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Inter', ui-sans-serif, system-ui, sans-serif;
+}
+
+@layer base {
+  body {
+    @apply bg-[#0F172A] text-white antialiased;
+  }
+}
+
+@layer utilities {
+  .animate-fade-out {
+    animation: fadeOut 3s forwards;
+  }
+
+  @keyframes fadeOut {
+    0% { opacity: 1; transform: scale(1); }
+    70% { opacity: 1; transform: scale(1); }
+    100% { opacity: 0; transform: scale(1.1); }
+  }
+
+  .animate-glow {
+    animation: glow 2s ease-in-out infinite alternate;
+  }
+
+  @keyframes glow {
+    from {
+      box-shadow: 0 0 10px -5px rgba(59, 130, 246, 0.5);
+    }
+    to {
+      box-shadow: 0 0 20px 5px rgba(59, 130, 246, 0.5);
+    }
+  }
+}
