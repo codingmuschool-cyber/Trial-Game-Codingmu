@@ -113,7 +113,7 @@ export function EndScreen({ score, onRestart }: EndScreenProps) {
 
       <div className="pt-4 space-y-4">
         <div className="flex justify-center space-x-6">
-          <a href="https://www.instagram.com/anagata_academy/" target="_blank" rel="noopener noreferrer" className="p-3 bg-slate-800 rounded-xl hover:bg-slate-700 transition-colors">
+          <a href="https://www.instagram.com/coding_mu/" target="_blank" rel="noopener noreferrer" className="p-3 bg-slate-800 rounded-xl hover:bg-slate-700 transition-colors">
             <Instagram className="w-6 h-6 text-pink-500" />
           </a>
           <a href="https://wa.me/6285111217896" target="_blank" rel="noopener noreferrer" className="p-3 bg-slate-800 rounded-xl hover:bg-slate-700 transition-colors">
