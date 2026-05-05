@@ -18,7 +18,7 @@ export function StartScreen({ onStart }: StartScreenProps) {
           <Code2 className="w-12 h-12 text-white" />
         </div>
         <h1 className="text-4xl md:text-5xl font-black tracking-tight bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-cyan-300">
-          Anagata Adventure
+          Code Adventure
         </h1>
         <p className="text-lg text-slate-400 font-medium max-w-xs mx-auto">
           Main sebentar, lanjut bikin game sendiri! 🚀
